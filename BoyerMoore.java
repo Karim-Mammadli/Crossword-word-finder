@@ -3,11 +3,7 @@ import java.util.Set;
 
 public class BoyerMoore
 {
-	/**
-	 * The lastOccurance function
-	 * @param S
-	 * @return
-	 */
+
 	public static Hashtable<Character, Integer> lastOccurrenceFunction(String S)
 	{
 		Hashtable<Character, Integer> L = new Hashtable<Character, Integer>();
@@ -20,12 +16,6 @@ public class BoyerMoore
 		return L;
 	}
 
-	/**
-	 * Run the Boyer Moore Pattern Matching
-	 * @param T
-	 * @param P
-	 * @return
-	 */
 	public static int find(String T, String P)
 	{
 		int n = T.length();
