@@ -1,11 +1,6 @@
 public class KMP
 {
 
-	/**
-	 * Gnereate the KMP Table
-	 * @param P
-	 * @return
-	 */
 	public static int[] genKMPTable(String P)
 	{
 		int m = P.length();
@@ -32,12 +27,6 @@ public class KMP
 		return F;
 	}
 
-	/**
-	 * Find the pattern in the string
-	 * @param T
-	 * @param P
-	 * @return
-	 */
 	public static int find(String T, final String P)
 	{
 		int n = T.length();
