@@ -1,3 +1,5 @@
+public class Main_pattern {
+
 public static int orient = 0;
 
     public static boolean directionalSearch(char[][] crossword, int xIdx, int yIdx, String target) {
@@ -57,3 +59,4 @@ public static int orient = 0;
         }
         return new int[]{-1,-1,-1};
     }
+}
